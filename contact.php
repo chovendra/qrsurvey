@@ -56,8 +56,8 @@
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="index.php">Home</a></li>
+                                    <!-- <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li> -->
                                     <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
                                 </ol>
                             </nav>
@@ -98,37 +98,65 @@
                             <h2 class="mt-2">Contact For Any Query</h2>
                         </div>
                         <div class="wow fadeInUp" data-wow-delay="0.3s">
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <form style="max-width:750px; margin:40px auto; padding:35px; background:linear-gradient(135deg,#ffffff,#f4f8fb); border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.12); font-family:'Segoe UI', Tahoma, sans-serif;">
+
+  <!-- Name + Email -->
+  <div style="display:flex; gap:20px; margin-bottom:20px;">
+    <div style="flex:1; display:flex; flex-direction:column;">
+      <label for="name" style="font-weight:600; margin-bottom:6px; color:#2124B1;">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name"
+             style="padding:12px; border:1px solid #ccc; border-radius:8px; font-size:15px; outline:none; transition:0.3s;">
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column;">
+      <label for="email" style="font-weight:600; margin-bottom:6px; color:#2124B1;">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email"
+             style="padding:12px; border:1px solid #ccc; border-radius:8px; font-size:15px; outline:none; transition:0.3s;">
+    </div>
+  </div>
+
+  <!-- Phone + Company -->
+  <div style="display:flex; gap:20px; margin-bottom:20px;">
+    <div style="flex:1; display:flex; flex-direction:column;">
+      <label for="phone" style="font-weight:600; margin-bottom:6px; color:#2124B1;">Phone Number</label>
+      <input type="tel" id="phone" placeholder="e.g. +91 9876543210"
+             style="padding:12px; border:1px solid #ccc; border-radius:8px; font-size:15px; outline:none; transition:0.3s;">
+    </div>
+    <div style="flex:1; display:flex; flex-direction:column;">
+      <label for="company" style="font-weight:600; margin-bottom:6px; color:#2124B1;">Company Name</label>
+      <input type="text" id="company" placeholder="Your company name"
+             style="padding:12px; border:1px solid #ccc; border-radius:8px; font-size:15px; outline:none; transition:0.3s;">
+    </div>
+  </div>
+
+  <!-- Industry -->
+  <div style="margin-bottom:20px; display:flex; flex-direction:column;">
+    <label for="industry" style="font-weight:600; margin-bottom:6px; color:#2124B1;">Industry</label>
+    <select id="industry" 
+            style="padding:12px; border:1px solid #ccc; border-radius:8px; font-size:15px; background:#fff; outline:none; transition:0.3s;">
+      <option selected disabled>Select your industry</option>
+      <option>Healthcare</option>
+      <option>Education</option>
+      <option>Retail</option>
+      <option>Manufacturing</option>
+      <option>Real Estate</option>
+      <option>Other</option>
+    </select>
+  </div>
+
+  <!-- Message -->
+  <div style="margin-bottom:25px; display:flex; flex-direction:column;">
+    <label for="message" style="font-weight:600; margin-bottom:6px; color:#2124B1;">Specific Requirements</label>
+    <textarea id="message" placeholder="Tell us what you need..." 
+              style="padding:12px; border:1px solid #ccc; border-radius:8px; font-size:15px; min-height:150px; resize:none; outline:none; transition:0.3s;"></textarea>
+  </div>
+
+  <!-- Submit -->
+  <button type="submit" 
+          style="width:100%; background:linear-gradient(135deg,#2124B1,#1c7ac7); color:#fff; font-size:17px; font-weight:bold; padding:15px; border:none; border-radius:10px; cursor:pointer; transition:0.3s;">
+    🚀 Schedule Demo Now
+  </button>
+</form>
+
                         </div>
                     </div>
                 </div>
@@ -137,86 +165,7 @@
         <!-- Contact End -->
         
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Popular Link</h5>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Career</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Project Gallery</h5>
-                        <div class="row g-2">
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
+        <?php include 'footer.php'; ?>
 
 
         <!-- Back to Top -->

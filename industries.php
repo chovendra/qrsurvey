@@ -87,24 +87,28 @@
                         </div>
                         <h4 class="mb-3">Healthcare</h4>
                         <p class="mb-4">Patient satisfaction surveys, clinical trial feedback, and healthcare provider assessments with HIPAA-compliant security.</p>
-                        <a class="btn btn-primary px-3" href="healthcare-surveys.php">Explore Solutions</a>
+                        <!-- <a class="btn btn-primary px-3" href="healthcare-surveys.php">Explore Solutions</a> -->
                     </div>
                 </div>
 
-                  <!-- Technology -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="industry-item bg-light rounded p-4 text-center">
-                        <div class="industry-icon mb-4">
-                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&fit=crop" alt="Technology Surveys" class="img-fluid rounded mb-3" style="height: 200px; width: 100%; object-fit: cover;">
-                            <div class="icon bg-primary rounded-circle p-3 d-inline-flex">
-                                <i class="fas fa-laptop-code fa-2x text-white"></i>
-                            </div>
-                        </div>
-                        <h4 class="mb-3">QR Staff</h4>
-                        <p class="mb-4">Effortless Staff Attendance and Payroll Management on the Go. Streamline Your Workforce Management with QR Staff.</p>
-                        <a class="btn btn-primary px-3" href="technology-surveys.php">Explore Solutions</a>
-                    </div>
-                </div>
+                 <!-- Technology -->
+<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="industry-item bg-light rounded p-4 text-center">
+        <div class="industry-icon mb-4">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&fit=crop" 
+                 alt="Technology Solutions" 
+                 class="img-fluid rounded mb-3" 
+                 style="height: 200px; width: 100%; object-fit: cover;">
+            <div class="icon bg-primary rounded-circle p-3 d-inline-flex">
+                <i class="fas fa-microchip fa-2x text-white"></i>
+            </div>
+        </div>
+        <h4 class="mb-3">Smart Technology</h4>
+        <p class="mb-4">Innovative digital solutions that empower businesses with automation, AI, and cloud integration for a smarter future.</p>
+        <!-- <a class="btn btn-primary px-3" href="technology.php">Explore Technology</a> -->
+    </div>
+</div>
+
 
                 <!-- Education -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -117,7 +121,7 @@
                         </div>
                         <h4 class="mb-3">Education</h4>
                         <p class="mb-4">Student feedback systems, course evaluations, and institutional research with advanced analytics for educators.</p>
-                        <a class="btn btn-primary px-3" href="education-surveys.php">Explore Solutions</a>
+                        <!-- <a class="btn btn-primary px-3" href="education-surveys.php">Explore Solutions</a> -->
                     </div>
                 </div>
 
@@ -132,7 +136,7 @@
                         </div>
                         <h4 class="mb-3">Retail</h4>
                         <p class="mb-4">Customer experience surveys, product feedback, and market research tools with real-time POS integration.</p>
-                        <a class="btn btn-primary px-3" href="retail-surveys.php">Explore Solutions</a>
+                        <!-- <a class="btn btn-primary px-3" href="retail-surveys.php">Explore Solutions</a> -->
                     </div>
                 </div>
 
@@ -149,7 +153,7 @@
                         </div>
                         <h4 class="mb-3">Hospitality</h4>
                         <p class="mb-4">Guest satisfaction surveys, service quality assessments, and event feedback with multilingual support.</p>
-                        <a class="btn btn-primary px-3" href="hospitality-surveys.php">Explore Solutions</a>
+                        <!-- <a class="btn btn-primary px-3" href="hospitality-surveys.php">Explore Solutions</a> -->
                     </div>
                 </div>
 
@@ -164,7 +168,7 @@
                         </div>
                         <h4 class="mb-3">Finance</h4>
                         <p class="mb-4">Customer satisfaction surveys, financial product feedback, and compliance assessments with bank-level security.</p>
-                        <a class="btn btn-primary px-3" href="finance-surveys.php">Explore Solutions</a>
+                        <!-- <a class="btn btn-primary px-3" href="finance-surveys.php">Explore Solutions</a> -->
                     </div>
                 </div>
             </div>
@@ -181,47 +185,64 @@
     <!-- Industries Content End -->
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container px-lg-5">
-            <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="position-relative d-inline text-primary ps-4">Client Success</h6>
-                <h2 class="mt-2">Trusted By Industry Leaders</h2>
+<div class="container-xxl py-5">
+    <div class="container px-lg-5">
+        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="position-relative d-inline text-primary ps-4">Client Success</h6>
+            <h2 class="mt-2">Trusted By Industry Leaders</h2>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+
+            <!-- Testimonial Item 1 -->
+            <div class="testimonial-item bg-light border rounded shadow-sm p-4 position-relative">
+                <i class="fas fa-quote-left text-primary fa-2x position-absolute" style="top:15px; left:15px;"></i>
+                <div class="d-flex align-items-center mb-4 mt-3">
+                    <img class="flex-shrink-0 rounded-circle border border-2 border-primary p-1" 
+                         src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=200&h=200&q=80" 
+                         style="width: 70px; height: 70px; object-fit: cover;">
+                    <div class="ms-3 text-start">
+                        <h6 class="mb-1">Dr. Priya Sharma</h6>
+                        <small class="text-muted">Medical Director, City Hospital</small>
+                    </div>
+                </div>
+                <p class="mb-0 fst-italic">"QRSurvey's healthcare solution reduced our patient feedback collection time by 70% while improving response rates significantly."</p>
             </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
-                <div class="testimonial-item border rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonials/healthcare-testimonial.jpg" style="width: 60px; height: 60px;">
-                        <div class="ms-3">
-                            <h6 class="mb-1">Dr. Priya Sharma</h6>
-                            <small>Medical Director, City Hospital</small>
-                        </div>
+
+            <!-- Testimonial Item 2 -->
+            <div class="testimonial-item bg-light border rounded shadow-sm p-4 position-relative">
+                <i class="fas fa-quote-left text-primary fa-2x position-absolute" style="top:15px; left:15px;"></i>
+                <div class="d-flex align-items-center mb-4 mt-3">
+                    <img class="flex-shrink-0 rounded-circle border border-2 border-primary p-1" 
+                         src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&h=200&q=80" 
+                         style="width: 70px; height: 70px; object-fit: cover;">
+                    <div class="ms-3 text-start">
+                        <h6 class="mb-1">Prof. Rajesh Kumar</h6>
+                        <small class="text-muted">Dean, National University</small>
                     </div>
-                    <p class="mb-0">"QRSurvey's healthcare solution reduced our patient feedback collection time by 70% while improving response rates significantly."</p>
                 </div>
-                <div class="testimonial-item border rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonials/education-testimonial.jpg" style="width: 60px; height: 60px;">
-                        <div class="ms-3">
-                            <h6 class="mb-1">Prof. Rajesh Kumar</h6>
-                            <small>Dean, National University</small>
-                        </div>
-                    </div>
-                    <p class="mb-0">"The education-specific survey templates have transformed how we collect and analyze student feedback across our campuses."</p>
-                </div>
-                <div class="testimonial-item border rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonials/retail-testimonial.jpg" style="width: 60px; height: 60px;">
-                        <div class="ms-3">
-                            <h6 class="mb-1">Amit Patel</h6>
-                            <small>CEO, Urban Retail Chain</small>
-                        </div>
-                    </div>
-                    <p class="mb-0">"Our customer satisfaction scores improved by 35% after implementing QRSurvey's retail feedback system at all checkout counters."</p>
-                </div>
+                <p class="mb-0 fst-italic">"The education-specific survey templates have transformed how we collect and analyze student feedback across our campuses."</p>
             </div>
+
+            <!-- Testimonial Item 3 -->
+            <div class="testimonial-item bg-light border rounded shadow-sm p-4 position-relative">
+                <i class="fas fa-quote-left text-primary fa-2x position-absolute" style="top:15px; left:15px;"></i>
+                <div class="d-flex align-items-center mb-4 mt-3">
+                    <img class="flex-shrink-0 rounded-circle border border-2 border-primary p-1" 
+                         src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=200&h=200&q=80" 
+                         style="width: 70px; height: 70px; object-fit: cover;">
+                    <div class="ms-3 text-start">
+                        <h6 class="mb-1">Amit Patel</h6>
+                        <small class="text-muted">CEO, Urban Retail Chain</small>
+                    </div>
+                </div>
+                <p class="mb-0 fst-italic">"Our customer satisfaction scores improved by 35% after implementing QRSurvey's retail feedback system at all checkout counters."</p>
+            </div>
+
         </div>
     </div>
-    <!-- Testimonial End -->
+</div>
+<!-- Testimonial End -->
+
 
     <?php include 'footer.php'; ?>
 </div>

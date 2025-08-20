@@ -51,7 +51,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: #06BBCC;
+            background: #2124b1;
             border-radius: 10px;
             margin-bottom: 20px;
         }
@@ -81,6 +81,69 @@
             background: #06BBCC;
             color: #fff;
         }
+        
+        /* New styles for demo and platforms section */
+        .demo-platforms-section {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 80px 0;
+        }
+        
+        .demo-form-container {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            height: 100%;
+        }
+        
+        .platform-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .platform-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .platform-icon {
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f1f8ff;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            font-size: 30px;
+            color: #2124b1;
+        }
+        
+        .form-control:focus {
+            border-color: #06BBCC;
+            box-shadow: 0 0 0 0.25rem rgba(6, 187, 204, 0.25);
+        }
+        
+        .section-title h2 {
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: #06BBCC;
+        }
     </style>
 </head>
 
@@ -108,9 +171,9 @@
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated zoomIn">Build Dynamic Surveys with QRSurvey</h1>
-                            <p class="text-white pb-3 animated zoomIn">Create custom forms with various field types, collect responses, and analyze data - all with our easy-to-use static solution.</p>
-                            <a href="builder.php" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Create a Form</a>
-                            <a href="dashboard.php" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">View Dashboard</a>
+                            <p class="text-white pb-3 animated zoomIn">Easily create fully customizable forms with multiple field types, collect and manage responses in real-time, and gain powerful insights through data analysis — all within our simple, secure, and easy-to-use static solution. Plus, enjoy a Dedicated App designed exclusively for Staff and Employees to streamline their workflow</p>
+                            <!-- <a href="builder.php" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Create a Form</a>
+                            <a href="dashboard.php" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">View Dashboard</a> -->
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
                             <img class="img-fluid" src="img/hero.png" alt="">
@@ -224,7 +287,7 @@
                             </div>
                             <h5>1. Create Form</h5>
                             <p>Use our intuitive form builder to create your survey with various field types.</p>
-                            <a href="builder.php" class="qr-btn qr-btn-primary">Try Builder</a>
+                            <!-- <a href="builder.php" class="qr-btn qr-btn-primary">Try Builder</a> -->
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -234,7 +297,7 @@
                             </div>
                             <h5>2. Share Link</h5>
                             <p>Copy the unique link to your form and share it with respondents.</p>
-                            <a href="dashboard.php" class="qr-btn qr-btn-outline">View Forms</a>
+                            <!-- <a href="dashboard.php" class="qr-btn qr-btn-outline">View Forms</a> -->
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -244,7 +307,7 @@
                             </div>
                             <h5>3. Analyze Data</h5>
                             <p>View responses in real-time and export data to CSV for further analysis.</p>
-                            <a href="responses.php" class="qr-btn qr-btn-primary">View Responses</a>
+                            <!-- <a href="responses.php" class="qr-btn qr-btn-primary">View Responses</a> -->
                         </div>
                     </div>
                 </div>
@@ -338,76 +401,186 @@
         </div>
         <!-- Field Types End -->
 
-
-        <!-- CTA Start -->
-        <div class="container-xxl bg-primary py-5">
+        <!-- Schedule Demo & Platforms Section Start -->
+        <div class="container-xxl demo-platforms-section py-5">
             <div class="container px-lg-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-8 text-center text-lg-start">
-                        <h3 class="text-white mb-3">Ready to create your first survey?</h3>
-                        <p class="text-white mb-4">Start collecting valuable data today with our easy-to-use form builder.</p>
-                    </div>
-                    <div class="col-lg-4 text-center text-lg-end">
-                        <a href="builder.php" class="btn btn-light py-3 px-5">Get Started Now</a>
-                    </div>
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4">Get Started</h6>
+                    <h2 class="mt-2">Schedule a Demo & See Our Platforms</h2>
                 </div>
+                
+                <div class="row g-5">
+                    <!-- Schedule Demo Form -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="demo-form-container">
+                            <h3 class="mb-4">Schedule a Personalized Demo</h3>
+                            <p class="mb-4">See how QRSurvey can transform your data collection process with a personalized 1-on-1 demo.</p>
+                            
+                            <form>
+    <div class="row g-3">
+
+        <!-- Name -->
+        <div class="col-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                <label for="name">Your Name</label>
             </div>
         </div>
-        <!-- CTA End -->
 
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link" href="index.php">Home</a>
-                        <a class="btn btn-link" href="about.php">About</a>
-                        <a class="btn btn-link" href="service.php">Service</a>
-                        <a class="btn btn-link" href="contact.php">Contact</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Features</h5>
-                        <a class="btn btn-link" href="builder.php">Form Builder</a>
-                        <a class="btn btn-link" href="#">Field Types</a>
-                        <a class="btn btn-link" href="responses.php">Response Collection</a>
-                        <a class="btn btn-link" href="#">Data Export</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Subscribe to get updates about new features and improvements.</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
-                    </div>
-                </div>
+        <!-- Email -->
+        <div class="col-12">
+            <div class="form-floating">
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                <label for="email">Your Email</label>
             </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">QRSurvey</a>, All Right Reserved.
+        </div>
+
+        <!-- Company Name -->
+        <div class="col-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="company" placeholder="Company Name">
+                <label for="company">Company Name</label>
+            </div>
+        </div>
+
+        <!-- Your Platform -->
+        <div class="col-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="platform" placeholder="Your Platform">
+                <label for="platform">Your Platform</label>
+            </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="col-12">
+            <div class="form-floating">
+                <input type="tel" class="form-control" id="phone" placeholder="Your Phone">
+                <label for="phone">Your Phone</label>
+            </div>
+        </div>
+
+        <!-- Industry -->
+        <div class="col-12">
+            <div class="form-floating">
+                <select class="form-select" id="industry">
+                    <option selected>Select Industry</option>
+                    <option value="1">Healthcare</option>
+                    <option value="2">Education</option>
+                    <option value="3">Retail</option>
+                    <option value="4">Manufacturing</option>
+                    <option value="5">Real Estate</option>
+                    <option value="6">Other</option>
+                </select>
+                <label for="industry">Industry</label>
+            </div>
+        </div>
+
+        <!-- Requirements -->
+        <div class="col-12">
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave specific requirements here" id="requirements" style="height: 100px"></textarea>
+                <label for="requirements">Specific Requirements</label>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-12">
+            <button class="btn btn-primary w-100 py-3" type="submit">Schedule Demo Now</button>
+        </div>
+    </div>
+</form>
+
                         </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Privacy Policy</a>
-                                <a href="">Terms & Conditions</a>
-                                <a href="">Help</a>
+                    </div>
+                    
+                    <!-- Platforms We Support -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="row h-100">
+                            <div class="col-12 mb-4">
+                                <div class="platform-card">
+                                    <div class="platform-icon">
+                                        <i class="fas fa-laptop"></i>
+                                    </div>
+                                    <h4>Web Platform</h4>
+                                    <p>Access QRSurvey from any modern web browser with our responsive web application.</p>
+                                    <div class="mt-4">
+                                        <span class="badge bg-primary me-2">Chrome</span>
+                                        <span class="badge bg-primary me-2">Firefox</span>
+                                        <span class="badge bg-primary me-2">Safari</span>
+                                        <span class="badge bg-primary">Edge</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 mb-4">
+                                <div class="platform-card">
+                                    <div class="platform-icon">
+                                        <i class="fab fa-android"></i>
+                                    </div>
+                                    <h4>Android App</h4>
+                                    <p>Download our dedicated Android application for seamless mobile data collection.</p>
+                                    <div class="mt-3">
+                                        <span class="badge bg-success">Google Play</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 mb-4">
+                                <div class="platform-card">
+                                    <div class="platform-icon">
+                                        <i class="fab fa-apple"></i>
+                                    </div>
+                                    <h4>iOS App</h4>
+                                    <p>Get our iOS app from the App Store for Apple device compatibility.</p>
+                                    <div class="mt-3">
+                                        <span class="badge bg-dark">App Store</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="platform-card">
+                                    <div class="platform-icon">
+                                        <i class="fas fa-tablet-alt"></i>
+                                    </div>
+                                    <h4>Tablet Optimized</h4>
+                                    <p>Perfect experience on iPad and Android tablets with our touch-optimized interface.</p>
+                                    <div class="mt-3">
+                                        <span class="badge bg-info me-2">iPadOS</span>
+                                        <span class="badge bg-info">Android Tablet</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+        <!-- Schedule Demo & Platforms Section End -->
+
+        <!-- CTA Start -->
+        <div class="container bg-primary py-5";>
+    <div class="container px-lg-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+                <h3 class="text-white mb-3">
+                    Ready to create your first survey?
+                </h3>
+                <p class="text-white mb-4">
+                    Easily create fully customizable forms with multiple field types, collect and manage responses in real-time, and gain powerful insights through data analysis — all within our simple, secure, and easy-to-use static solution. <br>
+                    Plus, enjoy a <b>Dedicated App for Staff and Employees</b> to streamline their workflow.
+                </p>
+                <!-- <a href="builder.php" class="btn btn-light py-3 px-5">Get Started Now</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+
+        <!-- CTA End -->
+
+
+        <?php include 'footer.php'; ?>
 
 
         <!-- Back to Top -->

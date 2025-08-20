@@ -41,8 +41,13 @@
         <div class="container-xxl py-5 bg-primary hero-header mb-5">
             <div class="container text-center my-5 py-5">
                 <h1 class="text-white animated zoomIn">About QRsurvey</h1>
-                <hr class="bg-white mx-auto mt-3" style="width: 80px;">
-                <p class="text-white-50">Smart | Simple | Surveys</p>
+                <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a class="text-white" href="index.php">Home</a></li>
+                                    <!-- <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li> -->
+                                    <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                                </ol>
+                            </nav>
             </div>
         </div>
         <!-- Hero End -->

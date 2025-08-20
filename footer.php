@@ -1,83 +1,45 @@
 <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Popular Link</h5>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Career</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Project Gallery</h5>
-                        <div class="row g-2">
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="col-4">
-                                <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div style="background:#2124B1; color:#fff; padding:40px 20px; font-family:Arial, sans-serif;">
+    
+    <!-- Main Footer Row -->
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; max-width:1200px; margin:auto; text-align:left;">
+
+        <!-- Logo & About -->
+        <div style="flex:1; min-width:250px; margin:10px;">
+            <img src="img/logoqr.png" alt="Logo" style="max-width:160px; margin-bottom:15px;">
+            <p style="margin:0; font-size:14px; color:#f1f1f1;">Dedicated app for staff & employees</p>
+        </div>
+
+        <!-- Get in Touch -->
+        <div style="flex:1; min-width:250px; margin:10px;">
+            <h5 style="margin-bottom:15px; font-size:18px; font-weight:600; color:#f1f1f1;">Get In Touch</h5>
+            <p style="margin:5px 0; font-size:14px;"><i class="fa fa-map-marker-alt" style="margin-right:8px;"></i>123 Street, New York, USA</p>
+            <p style="margin:5px 0; font-size:14px;"><i class="fa fa-phone-alt" style="margin-right:8px;"></i>+012 345 67890</p>
+            <p style="margin:5px 0; font-size:14px;"><i class="fa fa-envelope" style="margin-right:8px;"></i>info@example.com</p>
+            <div style="margin-top:10px;">
+                <a href="#" style="display:inline-block; margin-right:8px; color:#fff; border:1px solid #fff; border-radius:50%; padding:8px; text-align:center; width:34px; height:34px;"><i class="fab fa-twitter"></i></a>
+                <a href="#" style="display:inline-block; margin-right:8px; color:#fff; border:1px solid #fff; border-radius:50%; padding:8px; text-align:center; width:34px; height:34px;"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" style="display:inline-block; margin-right:8px; color:#fff; border:1px solid #fff; border-radius:50%; padding:8px; text-align:center; width:34px; height:34px;"><i class="fab fa-youtube"></i></a>
+                <a href="#" style="display:inline-block; margin-right:8px; color:#fff; border:1px solid #fff; border-radius:50%; padding:8px; text-align:center; width:34px; height:34px;"><i class="fab fa-instagram"></i></a>
+                <a href="#" style="display:inline-block; color:#fff; border:1px solid #fff; border-radius:50%; padding:8px; text-align:center; width:34px; height:34px;"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
-        <!-- Footer End -->
 
+        <!-- Popular Links -->
+        <div style="flex:1; min-width:250px; margin:10px;">
+            <h5 style="margin-bottom:15px; font-size:18px; font-weight:600; color:#f1f1f1;">Popular Links</h5>
+            <a href="#" style="display:block; color:#f1f1f1; text-decoration:none; margin:6px 0; font-size:14px;">About Us</a>
+            <a href="#" style="display:block; color:#f1f1f1; text-decoration:none; margin:6px 0; font-size:14px;">Contact Us</a>
+            <a href="#" style="display:block; color:#f1f1f1; text-decoration:none; margin:6px 0; font-size:14px;">Privacy Policy</a>
+            <a href="#" style="display:block; color:#f1f1f1; text-decoration:none; margin:6px 0; font-size:14px;">Terms & Condition</a>
+            <a href="#" style="display:block; color:#f1f1f1; text-decoration:none; margin:6px 0; font-size:14px;">Career</a>
+        </div>
+    </div>
 
-     
+    <!-- Bottom Bar -->
+    <div style="border-top:1px solid rgba(255,255,255,0.3); margin-top:25px; padding-top:15px; text-align:center; font-size:13px; color:#eaeaea;">
+        © <a href="#" style="color:#fff; text-decoration:underline;">Your Site Name</a>, All Rights Reserved.  
+        Designed By <a href="https://htmlcodex.com" style="color:#fff; text-decoration:underline;">HTML Codex</a>
+    </div>
+</div>
+<!-- Footer End -->
